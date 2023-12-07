@@ -11,7 +11,7 @@ The notebook is designed to be launched from Binder.
 Click the **Launch Binder** button at the top level of the repository
 
 ## Running locally
-You may also download the notebook from GitHub to run it locally:
+You may also download the repository from GitHub to run it locally:
 1. Open your terminal
 
 2. Check your conda install with `conda --version`. If you don't have conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html))
