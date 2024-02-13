@@ -13,9 +13,13 @@ Useful links:
 
 Write here a description of the methodology.  
 
-Describe the workflow and the data that is used.  
+Describe the workflow and the data that is used.
 
-Desrcibe where the data can be found, is there an API to download it or the files can be downloaded from some data repository. Provide a link to the repository (as DOI if possible).
+In particular, start with a brief description of the type of hazard and sector (e.g. building environment, agriculture, etc) for your given risk workflow (e.g. heatwave). Use max 250 words.
+Then, include a description of the type of approach used for risk calculation (e.g. damage analysis, risk matrix, or vulnerability/exposure calculation). Use max 500 words.
+This will help the reader understand how risk is calculated.
+
+Describe where the data can be found, is there an API to download it or the files can be downloaded from some data repository? Provide a link to the repository (as DOI if possible).
 
 ````{admonition} This is the example of the text description of the data in a green box:
 :class: seealso
