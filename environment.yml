@@ -1,35 +1,30 @@
-name: climaax_fire
+name: climaax_hazard
 
 channels:
     - conda-forge
 
 dependencies:
-        - python=3.11
-        - gdal
-        - numpy
-        - geopandas
-        - rasterio
-        - matplotlib
-        - tqdm
-        - pip
-        - jupyterlab
-        - xlrd
-        - pyproj
-        - xarray
-        - rioxarray
-        - osmnx
-        - leafmap
-        - eccodes
-        - earthkit-data
-        - cfgrib
-        - scipy
-        - cartopy
-        - pandas
-        - ipywidgets
-        - ipympl
-        - nbmake
-        - pytest
-        - pip:
-            - netcdf4
-            - damagescanner
-            - jupyterlab_myst
+    - python=3.11
+    - pip
+    - jupyterlab=4.2.3
+    - notebook=7.2.1
+    - jupyterlab-myst=2.4.2
+    - ipykernel=6.29.5
+    - cdsapi=0.7.0
+    - pooch=1.8.2
+    - numpy=1.26.4
+    - pandas=2.2.2
+    - xarray=2024.6.0
+    - dask=2024.7.0
+    - xesmf=0.8.6
+    - rioxarray=0.15.7
+    - geopandas=1.0.1
+    - pyogrio=0.8.0
+    - shapely=2.0.4
+    - pyproj=3.6.1
+    - contextily=1.6.0
+    - matplotlib=3.8.4
+    - cartopy=0.23.0
+    - netcdf4=1.7.1
+    - pip:
+        - damagescanner=0.7
