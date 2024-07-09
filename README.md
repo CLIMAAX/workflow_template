@@ -1,12 +1,10 @@
 # HAZARD
 
-    Workflow template repository.
+Workflows template repository:
 
-    Make sure to replace all occurrences of HAZARD (in the README, environment.yml, etc.) after copying this template.
-
-    If possible, please use the package versions as specified in the environment.yml file of this template. We aim to keep a consistent enviroment throughout all CLIMAAX workflow repositories to allow for seamless assessment of multiple hazards. Remove packages that are not used by workflows from the environment.yml file.
-
-    Only include the section on running with binder if the workflows actually start/run there.
+- [ ] Make sure to replace all occurrences of HAZARD (in the README, environment.yml, etc.) after copying this template.
+- [ ] If possible, please use the package versions as specified in the environment.yml file of this template. We aim to keep a consistent enviroment throughout all CLIMAAX workflow repositories to allow for seamless assessment of multiple hazards. Remove packages that are not used by workflows from the environment.yml file.
+- [ ] Only include the section on running with binder if the workflows actually start/run there.
 
 
 Repository for collaboration on workflows for HAZARD hazard
@@ -14,7 +12,7 @@ Repository for collaboration on workflows for HAZARD hazard
 
 ## How to run
 
-See our [how to run risk workflows](https://handbook.climaax.eu/CRA_steps/analysis/how_to.html) page in the CLIMAAX handbook for more detailed information or follow the steps below:
+See our [how to run risk workflows](https://handbook.climaax.eu/CRA_steps/analysis/how_to.html) page in the CLIMAAX handbook for more information or follow the steps below:
 
 ### Binder
 
