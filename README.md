@@ -1,40 +1,52 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/FIRE/main?labpath=FIRE_notebook.ipynb)
+# HAZARD
 
-# FIRE
-Repository for collaboration on workflows for Fire hazard
+    Workflow template repository.
 
-# How to run
+    Make sure to replace all occurrences of HAZARD (in the README, environment.yml, etc.) after copying this template.
 
-## Running on Binder
-The notebook is designed to be launched from Binder. 
+    If possible, please use the package versions as specified in the environment.yml file of this template. We aim to keep a consistent enviroment throughout all CLIMAAX workflow repositories to allow for seamless assessment of multiple hazards. Remove packages that are not used by workflows from the environment.yml file.
 
-Click the **Launch Binder** button at the top level of the repository
+    Only include the section on running with binder if the workflows actually start/run there.
 
-## Running locally
+
+Repository for collaboration on workflows for HAZARD hazard
+
+
+## How to run
+
+See our [how to run risk workflows](https://handbook.climaax.eu/CRA_steps/analysis/how_to.html) page in the CLIMAAX handbook for more detailed information or follow the steps below:
+
+### Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CLIMAAX/HAZARD/main)
+
+
+### Running locally
+
 You may also download the repository from GitHub to run it locally:
+
 1. Open your terminal
 
 2. Check your conda install with `conda --version`. If you don't have conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html))
 
 3. Clone the repository
     ```bash
-    git clone git@github.com:CLIMAAX/FIRE.git
+    git clone git@github.com:CLIMAAX/HAZARD.git
     ```
 
 4. Move into the cloned repository
     ```bash
-    cd FIRE
+    cd HAZARD
     ```
 
 5. Create and activate your environment from the `environment.yml` file
     ```bash
     conda env create -f environment.yml
-    conda activate climaax_fire
-    ```  
+    conda activate climaax_HAZARD
+    ```
 
 6. Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
 7. Edit the notebook
 8. Commit and push to the repo. **This step will be changed soon, introducing Pull Requests**.
 
-# Credits
-The **How to run** section was adapted from the [Environmental Data Science Book](https://edsbook.org/welcome.html) project.
+These instructions were adapted from the [Environmental Data Science Book](https://edsbook.org/welcome.html) project.
