@@ -11,12 +11,17 @@ dependencies:
     - contextily=1.6.0
     - dask=2024.7.0
     - distributed=2024.7.0
+    - flask=2.3.3
     - gdal=3.9.1
     - geopandas=1.0.1
     - ipykernel=6.29.5
+    - ipyleaflet=0.19.1
+    - ipywidgets=8.1.3
     - jenkspy=0.4.1
+    - jupyter-server-proxy=4.3.0
     - jupyterlab-myst=2.4.2
     - jupyterlab=4.2.3
+    - localtileserver=0.10.3
     - matplotlib=3.8.4
     - netcdf4=1.7.1
     - notebook=7.2.1
@@ -37,12 +42,13 @@ dependencies:
     - rasterio=1.3.10
     - rasterstats=0.19.0
     - requests=2.32.3
+    - rio-cogeo=5.3.3
     - rioxarray=0.15.7
     - scipy=1.14.0
     - shapely=2.0.4
     - xarray=2024.6.0
     - xesmf=0.8.6
     - zarr=2.18.2
+    - xclim=0.50.0
     - pip:
         - damagescanner==0.7
-        - rio-cogeo==5.3.3
