@@ -3,7 +3,7 @@
 Workflows template repository:
 
 - [ ] Make sure to replace all occurrences of HAZARD (in the `README.md`, `environment.yml`, etc.) after copying this template.
-- [ ] If possible, please use the package versions as specified in the environment.yml file of this template. We aim to keep a consistent enviroment throughout all CLIMAAX workflow repositories to allow for a seamless assessment of multiple hazards in a single environment. Nevertheless, please remove packages that are not used by workflows from the hazard repository's `environment.yml` file, but keep the `pip`, `jupyterlab`, `notebook`, `jupyterlab-myst` and `ipykernel` packages for convenience of the user.
+- [ ] If possible, please use the package versions as specified in the environment.yml file of this template. We aim to keep a consistent enviroment throughout all CLIMAAX workflow repositories to allow for a seamless assessment of multiple hazards in a single environment. Nevertheless, please remove packages that are not used by workflows from the hazard repository's `environment.yml` file, but keep the `ipykernel`, `jupyterlab-myst`, `jupyterlab`, `notebook` and `pip` packages for convenience of the user.
 - [ ] Only include a section on running with binder if the workflows actually start/run there.
 
 
