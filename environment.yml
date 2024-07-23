@@ -6,6 +6,7 @@ channels:
 dependencies:
     - aiohttp=3.9.5
     - basemap=1.4.1
+    - bottleneck=1.4.0
     - cartopy=0.23.0
     - cdsapi=0.7.0
     - contextily=1.6.0
