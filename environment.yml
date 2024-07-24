@@ -9,9 +9,11 @@ dependencies:
     - bottleneck=1.4.0
     - cartopy=0.23.0
     - cdsapi=0.7.0
+    - cfgrib=0.9.14.0
     - contextily=1.6.0
     - dask=2024.7.0
     - distributed=2024.7.0
+    - eccodes=2.36.0
     - flask=2.3.3
     - gdal=3.9.1
     - geopandas=1.0.1
