@@ -6,11 +6,13 @@ channels:
 dependencies:
     - aiohttp=3.9.5
     - basemap=1.4.1
+    - bokeh=3.5.0
     - bottleneck=1.4.0
     - cartopy=0.23.0
     - cdsapi=0.7.0
     - cfgrib=0.9.14.0
     - contextily=1.6.0
+    - dask-labextension=7.0.0
     - dask=2024.7.0
     - distributed=2024.7.0
     - eccodes=2.36.0
@@ -19,15 +21,20 @@ dependencies:
     - geopandas=1.0.1
     - ipykernel=6.29.5
     - ipyleaflet=0.19.1
+    - ipympl=0.9.4
     - ipywidgets=8.1.3
     - jenkspy=0.4.1
+    - jupyter-resource-usage=1.0.2
     - jupyter-server-proxy=4.3.0
+    - jupyterlab-git=0.50.1
     - jupyterlab-myst=2.4.2
     - jupyterlab=4.2.3
     - localtileserver=0.10.3
     - matplotlib=3.8.4
     - netcdf4=1.7.1
     - notebook=7.2.1
+    - numba=0.60.0
+    - numexpr=2.10.0
     - numpy=1.26.4
     - openpyxl=3.1.4
     - osmnx=1.9.3
@@ -51,6 +58,7 @@ dependencies:
     - rioxarray=0.15.7
     - scikit-learn=1.5.1
     - scipy=1.14.0
+    - seaborn=0.13.2
     - shapely=2.0.4
     - tqdm=4.66.4
     - xarray=2024.6.0
