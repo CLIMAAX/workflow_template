@@ -50,16 +50,16 @@ Make sure to replace all occurrences of HAZARD (in the `README.md`, `environment
 
 - Use the **package versions** as specified in the `environment.yml` file provided with the template.
   We aim to keep a consistent enviroment throughout all CLIMAAX workflow repositories to allow for a seamless assessment of multiple hazards in a single environment.
-  Packages are installed from the conda-forge channel.
+  Packages are installed from the [conda-forge](https://conda-forge.org/) channel.
 
-- Please **remove packages** that are not used by your workflows from your new hazard repository's `environment.yml` file to keep the hazard-specific environment as light as possible, but always keep the ipykernel, jupyterlab-myst, jupyterlab, notebook and pip packages for the convenience of the user.
+- Please **remove packages** that are not used by your workflows from your new hazard repository's `environment.yml` file to keep the hazard-specific environment as light as possible, but *always* keep the ipykernel, jupyterlab-myst, jupyterlab, notebook and pip packages for the convenience of the user.
 
 - We **only explicitly specify packages** that are directly imported in the workflows and some optional dependencies of these packages.
   E.g., dask and netcdf4 should be specified whenever xarray is used to load NetCDF files so `xarray.open_mfdataset` works, even if the dask and netcdf4 packages are not imported directly in any of the workflow notebooks.
   In contrast, instead of specifying a version for matplotlib-base explicitly, we only specify a version for matplotlib and let conda resolve the dependency.
 
 - To **add a package to the environment** of an existing workflow repository, pick its version from the general `environment.yml` file in the template repository.
-  If the package doesn't exist in the general environment yet, find a compatible version and open a pull request or issue in the template repository so it can be added to the general environment.
+  If the package doesn't exist in the general environment yet, find a compatible version and open a [pull request](https://github.com/CLIMAAX/workflow_template/pulls) or [issue](https://github.com/CLIMAAX/workflow_template/issues) in the template repository so it can be added to the general environment.
   A way to select a compatible version is to first create the workflow or general environment without the new package, then install the package(s) without specifying a version and using the version that is automatically installed (conda will pick a compatible version if possible).
 
 ### Binder links
