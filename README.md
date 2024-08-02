@@ -2,7 +2,7 @@
 
 Repository for collaboration on workflows for HAZARD hazard.
 
-<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />
+[<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
 
 
 ## How to run
