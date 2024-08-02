@@ -4,12 +4,18 @@ Repository for collaboration on workflows for HAZARD hazard.
 
 [<img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />](https://climaax.eu)
 
+Part of the [Climate Risk Assessment handbook](https://handbook.climaax.eu/).
+
 
 ## How to run
 
 See our [how to run risk workflows](https://handbook.climaax.eu/notebooks/workflows_how_to.html) page in the CLIMAAX handbook for more information.
 
-### Quickstart
+### Launch a binder session
+
+[![Binder](https://mybinder.org/badge_logo.svg)](INSERT-LINK-FOR-HAZARD-HERE-SEE-BELOW)
+
+### Quickstart: local setup
 
 In a terminal where git and conda are available:
 
@@ -38,6 +44,12 @@ In a terminal where git and conda are available:
         jupyter notebook
 
 
+## How to contribute
+
+See our [contribute to risk recipes](https://handbook.climaax.eu/community/contribute.html) page in the handbook for more information.
+
+
+
 ## Developer information
 
 Things to consider when setting up a new workflow repository. *Delete this section of the README after setting up.*
@@ -62,7 +74,7 @@ Make sure to replace all occurrences of HAZARD (in the `README.md`, `environment
   If the package doesn't exist in the general environment yet, find a compatible version and open a [pull request](https://github.com/CLIMAAX/workflow_template/pulls) or [issue](https://github.com/CLIMAAX/workflow_template/issues) in the template repository so it can be added to the general environment.
   A way to select a compatible version is to first create the workflow or general environment without the new package, then install the package(s) without specifying a version and using the version that is automatically installed (conda will pick a compatible version if possible).
 
-### Binder links
+### Binder link
 
 Binder sessions should be launched via the [CLIMAAX/binder-env](https://github.com/CLIMAAX/binder-env) repository, pulling the workflow repository content in with nbgitpuller.
 Instructions for creating a link to launch binder in this way are provided in the binder-env repository.
