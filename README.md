@@ -13,6 +13,8 @@ See our [how to run risk workflows](https://handbook.climaax.eu/notebooks/workfl
 
 ### Launch a binder session
 
+Binder sessions are not persistent and may not provide the necessary computing resources to run all workflow steps.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](INSERT-LINK-FOR-HAZARD-HERE-SEE-BELOW)
 
 ### Quickstart: local setup
