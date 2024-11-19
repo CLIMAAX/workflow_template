@@ -66,6 +66,7 @@ dependencies:
     - seaborn=0.13.2
     - shapely=2.0.4
     - tqdm=4.66.4
+    - werkzeug=3.0.6
     - xarray=2024.6.0
     - xesmf=0.8.6
     - zarr=2.18.2
