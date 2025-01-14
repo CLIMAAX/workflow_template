@@ -62,6 +62,7 @@ dependencies:
     - rasterstats=0.19.0
     - requests=2.32.3
     - rio-cogeo=5.3.3
+    - rio-tiler=6.7.0
     - rioxarray=0.15.7
     - scikit-learn=1.5.1
     - scipy=1.14.0
