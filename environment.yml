@@ -50,7 +50,6 @@ dependencies:
     - planetary-computer=1.0.0
     - plotly=5.22.0
     - pooch=1.8.2
-    - pydataverse=0.3.3
     - pyogrio=0.8.0
     - pyproj=3.6.1
     - pystac-client=0.8.2
@@ -78,3 +77,4 @@ dependencies:
     - pip:
         - damagescanner==0.7
         - paretoset==1.2.4
+        - pyDataverse==0.3.4
