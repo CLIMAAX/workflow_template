@@ -61,6 +61,7 @@ dependencies:
     - pyyaml=6.0.2
     - rasterio=1.4.3
     - rasterstats=0.20.0
+    - regionmask=0.13.0
     - requests=2.32.3
     - rio-cogeo=5.4.1
     - rio-tiler=7.6.0
@@ -73,15 +74,16 @@ dependencies:
     - werkzeug=3.1.3
     - xarray=2025.3.1
     - xesmf=0.8.8
-    - zarr=3.0.6
     - xclim=0.55.1
     - xlrd=2.0.1
+    - zarr=3.0.6
     - pip:
         - damagescanner==0.7
         - earthkit-data==0.13.6
         - earthkit-geo==0.3.0
         - git+https://github.com/ecmwf/earthkit-meteo.git@feature/extreme-values
         - earthkit-plots==0.2.8
+        - gisco-geodata==0.1.2
         - git+https://github.com/tommyod/paretoset.git@5d8f3a739eeb38fb0b63340840353ad99845a5f0
         - pyDataverse==0.3.4
         - pylandtemp==0.0.1a1
