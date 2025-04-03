@@ -61,6 +61,7 @@ dependencies:
     - pyyaml=6.0.1
     - rasterio=1.3.10
     - rasterstats=0.19.0
+    - regionmask=0.13.0
     - requests=2.32.3
     - rio-cogeo=5.3.3
     - rio-tiler=6.7.0
@@ -80,5 +81,6 @@ dependencies:
         - damagescanner==0.7
         - earthkit-geo==0.3.0
         - earthkit-plots==0.2.8
+        - gisco-geodata==0.1.2
         - paretoset==1.2.4
         - pyDataverse==0.3.4
