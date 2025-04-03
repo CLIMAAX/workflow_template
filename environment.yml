@@ -84,3 +84,5 @@ dependencies:
         - gisco-geodata==0.1.2
         - paretoset==1.2.4
         - pyDataverse==0.3.4
+        - pylandtemp==0.0.1a1
+        - git+https://github.com/kapadia/usgs@ec8b5e2e77cc020890d9dbab0fa46cb2d4867e44
