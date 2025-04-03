@@ -38,7 +38,6 @@ dependencies:
     - jupyterlab=4.2.3
     - localtileserver=0.10.3
     - matplotlib=3.8.4
-    - mplleaflet=0.0.5
     - nbgitpuller=1.2.1
     - netcdf4=1.7.1
     - notebook=7.2.1
