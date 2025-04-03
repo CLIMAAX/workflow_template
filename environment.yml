@@ -78,7 +78,9 @@ dependencies:
     - xlrd=2.0.1
     - pip:
         - damagescanner==0.7
+        - earthkit-data==0.13.6
         - earthkit-geo==0.3.0
+        - git+https://github.com/ecmwf/earthkit-meteo.git@feature/extreme-values
         - earthkit-plots==0.2.8
         - gisco-geodata==0.1.2
         - paretoset==1.2.4
