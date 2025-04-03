@@ -36,7 +36,7 @@ dependencies:
     - jupyterlab-git=0.50.1
     - jupyterlab-myst=2.4.2
     - jupyterlab=4.2.3
-    - localtileserver=0.10.3
+    - localtileserver=0.10.6
     - matplotlib=3.8.4
     - nbgitpuller=1.2.1
     - netcdf4=1.7.1
@@ -63,14 +63,14 @@ dependencies:
     - regionmask=0.13.0
     - requests=2.32.3
     - rio-cogeo=5.3.3
-    - rio-tiler=6.7.0
+    - rio-tiler=7.6.0
     - rioxarray=0.15.7
     - scikit-learn=1.5.1
     - scipy=1.14.0
     - seaborn=0.13.2
     - shapely=2.0.6
     - tqdm=4.66.4
-    - werkzeug=3.0.6
+    - werkzeug=3.1.3
     - xarray=2024.6.0
     - xesmf=0.8.6
     - zarr=2.18.2
