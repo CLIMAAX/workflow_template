@@ -24,6 +24,7 @@ dependencies:
     - folium=0.19.5
     - gdal=3.9.1
     - geopandas=1.0.1
+    - httpx=0.27.2
     - ipykernel=6.29.5
     - ipyleaflet=0.19.1
     - ipympl=0.9.4
