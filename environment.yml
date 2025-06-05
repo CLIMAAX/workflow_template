@@ -83,7 +83,7 @@ dependencies:
         - damagescanner==0.7
         - earthkit-data==0.13.6
         - earthkit-geo==0.3.0
-        - earthkit-meteo==0.4.0
+        - earthkit-meteo==0.4.1
         - earthkit-plots==0.2.8
         - eodag==3.2.0
         - gisco-geodata==0.1.2
