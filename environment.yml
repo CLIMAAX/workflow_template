@@ -90,4 +90,4 @@ dependencies:
         - "git+https://github.com/tommyod/paretoset.git@5d8f3a739eeb38fb0b63340840353ad99845a5f0"
         - pyDataverse==0.3.4
         - pylandtemp==0.0.1a1
-        - "git+https://github.com/kapadia/usgs.git@ec8b5e2e77cc020890d9dbab0fa46cb2d4867e44"
+        - usgs==0.3.6
