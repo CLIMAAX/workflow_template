@@ -90,5 +90,5 @@ dependencies:
         - earthkit-plots==0.2.8
         - earthkit-plots-default-styles==0.0.1  # only version compatible with earthkit-plots 0.2.8
         - gisco-geodata==0.1.3
-        - "git+https://github.com/tommyod/paretoset.git@5d8f3a739eeb38fb0b63340840353ad99845a5f0"
+        - paretoset==1.2.5
         - pylandtemp==0.0.1a1
