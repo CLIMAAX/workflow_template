@@ -7,64 +7,67 @@ channels:
 # Package versions should follow the general CLIMAAX environment
 # specified in https://github.com/CLIMAAX/workflow_template
 dependencies:
-    - adlfs=2024.7.0
+    - adlfs=2026.2.0
     - affine=2.4.0
-    - aiohttp=3.9.5
+    - aiohttp=3.13.3
     - bokeh=3.5.0
-    - boto3=1.37.33
+    - boto3=1.42.47
     - bottleneck=1.4.0
-    - branca=0.8.1
+    - branca=0.8.2
     - cartopy=0.23.0
-    - cdsapi=0.7.5
+    - cdsapi=0.7.7
     - cfgrib=0.9.14.0
-    - contextily=1.6.0
+    - contextily=1.7.0
     - dask-labextension=7.0.0
     - dask=2024.7.0
     - distributed=2024.7.0
     - eccodes=2.36.0
+    - eodag=3.10.1
     - flask=2.3.3
-    - folium=0.19.5
+    - flox=0.11.1
+    - folium=0.20.0
     - gdal=3.9.1
     - geopandas=1.0.1
-    - httpx=0.27.2
-    - ipykernel=6.29.5
-    - ipyleaflet=0.19.1
-    - ipympl=0.9.4
-    - ipython=8.27.0
-    - ipywidgets=8.1.3
+    - httpx=0.28.1
+    - ipykernel=6.30.1
+    - ipyleaflet=0.20.0
+    - ipympl=0.10.0
+    - ipython=9.4.0
+    - ipywidgets=8.1.8
     - jenkspy=0.4.1
-    - jupyter-resource-usage=1.1.1
+    - jupyter-resource-usage=1.2.0
     - jupyter-server-proxy=4.4.0
-    - jupyterlab-git=0.51.0
-    - jupyterlab-myst=2.4.2
-    - jupyterlab=4.2.7
-    - localtileserver=0.10.6
+    - jupyterlab-git=0.51.4
+    - jupyterlab-myst=2.6.0
+    - jupyterlab=4.4.5
+    - localtileserver=0.10.7
     - lxml=5.3.2
     - matplotlib=3.8.4
-    - nbgitpuller=1.2.1
+    - nbgitpuller=1.2.2
     - netcdf4=1.7.1
-    - notebook=7.2.2
+    - notebook=7.4.5
     - numba=0.60.0
     - numexpr=2.10.0
     - numpy=1.26.4
-    - openpyxl=3.1.4
-    - osmnx=1.9.3
+    - openpyxl=3.1.5
+    - osmnx=2.0.7
     - pandas=2.2.2
     - pip
     - planetary-computer=1.0.0
-    - plotly=5.22.0
-    - pooch=1.8.2
+    - plotly=6.5.2
+    - pooch=1.9.0
+    - pydataverse=0.3.5
     - pyogrio=0.8.0
     - pyproj=3.6.1
-    - pystac-client=0.8.2
-    - pytest=8.3.2
-    - python-kaleido=0.2.1
+    - pystac-client=0.9.0
+    - pytest=9.0.2
+    - python-kaleido=1.2.0
     - python=3.12
-    - pyyaml=6.0.1
+    - pyyaml=6.0.2
     - rasterio=1.3.10
     - rasterstats=0.19.0
     - regionmask=0.13.0
-    - requests=2.32.3
+    - requests=2.32.4
     - rio-cogeo=5.3.3
     - rio-tiler=7.6.0
     - rioxarray=0.15.7
@@ -72,12 +75,13 @@ dependencies:
     - scipy=1.15.2
     - seaborn=0.13.2
     - shapely=2.0.6
-    - tqdm=4.66.4
+    - tqdm=4.67.1
+    - usgs=0.3.6
     - werkzeug=3.1.3
     - xarray=2024.6.0
     - xesmf=0.8.6
     - xclim=0.50.0
-    - xlrd=2.0.1
+    - xlrd=2.0.2
     - zarr=2.18.2
     - pip:
         - damagescanner==0.7
@@ -86,9 +90,6 @@ dependencies:
         - earthkit-meteo==0.4.1
         - earthkit-plots==0.2.8
         - earthkit-plots-default-styles==0.0.1  # only version compatible with earthkit-plots 0.2.8
-        - eodag==3.2.0
-        - gisco-geodata==0.1.2
-        - "git+https://github.com/tommyod/paretoset.git@5d8f3a739eeb38fb0b63340840353ad99845a5f0"
-        - pyDataverse==0.3.4
+        - gisco-geodata==0.1.3
+        - paretoset==1.2.5
         - pylandtemp==0.0.1a1
-        - usgs==0.3.6
