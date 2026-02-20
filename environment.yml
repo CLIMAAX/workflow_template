@@ -22,6 +22,7 @@ dependencies:
     - dask=2024.7.0
     - distributed=2024.7.0
     - eccodes=2.36.0
+    - eurostat=1.1.1
     - flask=2.3.3
     - folium=0.19.5
     - gdal=3.9.1
